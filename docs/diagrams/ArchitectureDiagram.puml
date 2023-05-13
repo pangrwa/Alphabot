@@ -1,0 +1,22 @@
+@startuml
+!include style.puml
+skinparam arrowThickness 1.1
+skinparam arrowColor LOGIC_COLOR_T4
+skinparam classBackgroundColor LOGIC_COLOR
+
+
+
+package AlphaBot {
+    Class robot
+    Class portfolio
+    Class stock_frame
+    Class trades
+    Class indicator
+}
+
+robot --> portfolio
+robot --> stock_frame
+robot --> trades
+robot --> indicator
+
+@enduml
