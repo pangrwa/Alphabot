@@ -1,4 +1,4 @@
-# Alphabot
+# Alphabot [wip]
 A python trading bot!
 
 This is just a brief overview of how the program works
